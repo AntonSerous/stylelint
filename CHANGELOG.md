@@ -1,5 +1,11 @@
 # Changelog
 
+## 15.2.0
+
+- Added: `messageArgs` to 76 rules ([#6589](https://github.com/stylelint/stylelint/pull/6589)) ([@kizu](https://github.com/kizu)).
+- Fixed: `declaration-property-value-no-unknown` parse error for `alpha(opacity=n)` to report as violation ([#6650](https://github.com/stylelint/stylelint/pull/6650)) ([@romainmenke](https://github.com/romainmenke)).
+- Fixed: `overrides.extends` order when including same rules ([#6660](https://github.com/stylelint/stylelint/pull/6660)) ([@kuoruan](https://github.com/kuoruan)).
+
 ## 15.1.0
 
 - Added: `declaration-block-no-redundant-longhand-properties` autofix ([#6580](https://github.com/stylelint/stylelint/pull/6580)) ([@mattxwang](https://github.com/mattxwang)).
